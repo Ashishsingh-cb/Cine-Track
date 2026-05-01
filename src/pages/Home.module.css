@@ -1,0 +1,14 @@
+.page { min-height: 100vh; }
+.hero { height: 520px; background-size: cover; background-position: center top; position: relative; }
+.heroOverlay { position: absolute; inset: 0; background: linear-gradient(to right, rgba(0,0,0,0.85) 40%, transparent 100%), linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 50%); display: flex; align-items: center; }
+.heroContent { padding: 0 3rem; max-width: 560px; }
+.heroBadge { display: inline-block; background: #e5383b; color: #fff; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; margin-bottom: 1rem; }
+.heroTitle { font-size: 3.2rem; letter-spacing: 2px; line-height: 1.1; color: #fff; margin-bottom: 0.75rem; }
+.heroDesc { color: rgba(255,255,255,0.75); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.25rem; }
+.heroActions { display: flex; align-items: center; gap: 1rem; }
+.heroBtn { background: #e5383b; border: none; color: #fff; padding: 10px 24px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; cursor: pointer; }
+.heroRating { color: #fff; font-size: 1rem; font-weight: 600; }
+.sections { padding: 2.5rem 2rem; max-width: 1200px; margin: 0 auto; }
+.section { margin-bottom: 3rem; }
+.sectionTitle { font-size: 1.5rem; letter-spacing: 1.5px; margin-bottom: 1rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(155px, 1fr)); gap: 1rem; }

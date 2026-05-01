@@ -1,0 +1,30 @@
+.page { min-height: 100vh; position: relative; }
+.backdrop { position: fixed; inset: 0; background-size: cover; background-position: center; z-index: -1; filter: blur(2px) brightness(0.25); }
+.backdropOverlay { position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 40%, var(--bg) 100%); }
+.loading { padding: 3rem; }
+.skeletonHero { height: 400px; margin-bottom: 2rem; }
+.error { padding: 3rem; text-align: center; color: var(--muted); }
+.content { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; }
+.back { background: var(--card); border: 1px solid var(--border); color: var(--muted); padding: 6px 14px; border-radius: 6px; font-size: 0.85rem; cursor: pointer; margin-bottom: 1.5rem; }
+.main { display: flex; gap: 2.5rem; margin-bottom: 3rem; flex-wrap: wrap; }
+.poster { width: 220px; flex-shrink: 0; border-radius: 12px; overflow: hidden; }
+.poster img { width: 100%; display: block; }
+.noPoster { width: 220px; height: 330px; background: var(--card); display: flex; align-items: center; justify-content: center; font-size: 3rem; border-radius: 12px; }
+.info { flex: 1; min-width: 260px; }
+.genres { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 0.75rem; }
+.genre { background: rgba(229,56,59,0.15); border: 1px solid rgba(229,56,59,0.3); color: #e5383b; padding: 3px 10px; border-radius: 20px; font-size: 0.75rem; }
+.title { font-size: 2.8rem; letter-spacing: 2px; margin-bottom: 0.5rem; line-height: 1.1; }
+.meta { display: flex; gap: 16px; color: var(--muted); font-size: 0.9rem; margin-bottom: 1rem; flex-wrap: wrap; }
+.overview { color: rgba(240,240,240,0.8); line-height: 1.7; font-size: 0.95rem; margin-bottom: 1.5rem; }
+.actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.wlBtn { background: #e5383b; border: none; color: #fff; padding: 10px 22px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; cursor: pointer; }
+.wlBtn.inList { background: #4caf7d; }
+.trailerBtn { background: var(--card); border: 1px solid var(--border); color: var(--text); padding: 10px 22px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; display: inline-flex; align-items: center; text-decoration: none; }
+.cast { margin-top: 1rem; }
+.castTitle { font-size: 1.4rem; letter-spacing: 1px; margin-bottom: 1rem; }
+.castGrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 1rem; }
+.castCard { text-align: center; }
+.castCard img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 50%; margin-bottom: 6px; border: 2px solid var(--border); }
+.noPhoto { width: 100%; aspect-ratio: 1; background: var(--card); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; margin-bottom: 6px; }
+.castName { font-size: 0.8rem; font-weight: 600; margin-bottom: 2px; }
+.castRole { font-size: 0.72rem; color: var(--muted); }

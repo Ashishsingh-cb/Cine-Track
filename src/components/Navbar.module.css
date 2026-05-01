@@ -1,0 +1,9 @@
+.header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 62px; position: sticky; top: 0; z-index: 100; gap: 1rem; }
+.logo { font-family: sans-serif; font-size: 1.9rem; letter-spacing: 3px; color: #e5383b; flex-shrink: 0; text-decoration: none; }
+.logo span { color: #f4a261; }
+.nav { display: flex; gap: 4px; flex: 1; justify-content: center; }
+.nav a { color: var(--muted); padding: 6px 16px; border-radius: 6px; font-size: 0.88rem; font-weight: 500; transition: all 0.2s; display: flex; align-items: center; gap: 6px; text-decoration: none; }
+.nav a:hover { color: var(--text); background: var(--card); }
+.nav a.active { color: var(--text); background: var(--card); }
+.badge { background: #e5383b; color: #fff; border-radius: 10px; padding: 1px 7px; font-size: 0.72rem; font-weight: 600; }
+.themeBtn { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; font-size: 1.1rem; cursor: pointer; }

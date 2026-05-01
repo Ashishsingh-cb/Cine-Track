@@ -1,0 +1,11 @@
+.page { max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem; }
+.title { font-size: 2.2rem; letter-spacing: 2px; margin-bottom: 1.5rem; }
+.filters { display: flex; gap: 10px; margin-bottom: 2rem; flex-wrap: wrap; }
+.searchInput, .select { background: var(--card); border: 1px solid var(--border); color: var(--text); border-radius: 8px; padding: 9px 14px; font-size: 0.88rem; outline: none; }
+.searchInput { flex: 1; min-width: 220px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(155px, 1fr)); gap: 1rem; }
+.empty { text-align: center; color: var(--muted); padding: 4rem; }
+.loader { display: flex; justify-content: center; padding: 2rem; min-height: 60px; }
+.spinner { display: flex; gap: 8px; align-items: center; }
+.spinner span { width: 10px; height: 10px; border-radius: 50%; background: #e5383b; animation: bounce 0.6s infinite alternate; }
+@keyframes bounce { from { transform: translateY(0); } to { transform: translateY(-10px); } }

@@ -1,0 +1,29 @@
+.page { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
+.header { margin-bottom: 1.5rem; }
+.title { font-size: 2.2rem; letter-spacing: 2px; margin-bottom: 0.4rem; }
+.stats { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 0.9rem; }
+.dot { color: var(--border); }
+.watched { color: #4caf7d; }
+.pending { color: #f4a261; }
+.filters { display: flex; gap: 8px; margin-bottom: 1.5rem; }
+.filterBtn { background: var(--card); border: 1px solid var(--border); color: var(--muted); padding: 6px 16px; border-radius: 20px; font-size: 0.85rem; cursor: pointer; }
+.filterBtn.active { color: #fff; background: #e5383b; border-color: #e5383b; }
+.list { display: flex; flex-direction: column; gap: 12px; }
+.item { background: var(--card); border: 1px solid var(--border); border-radius: 10px; display: flex; gap: 16px; padding: 12px; align-items: center; }
+.watchedItem { opacity: 0.6; }
+.poster { width: 60px; height: 90px; border-radius: 6px; overflow: hidden; flex-shrink: 0; background: var(--border); cursor: pointer; display: flex; align-items: center; justify-content: center; }
+.poster img { width: 100%; height: 100%; object-fit: cover; }
+.info { flex: 1; cursor: pointer; min-width: 0; }
+.itemTitle { font-size: 1rem; font-weight: 600; margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.itemMeta { font-size: 0.8rem; color: var(--muted); margin-bottom: 6px; }
+.itemOverview { font-size: 0.82rem; color: var(--muted); line-height: 1.5; }
+.actions { display: flex; flex-direction: column; gap: 8px; flex-shrink: 0; }
+.watchedBtn { background: var(--card); border: 1px solid var(--border); color: var(--muted); padding: 6px 12px; border-radius: 6px; font-size: 0.8rem; cursor: pointer; white-space: nowrap; }
+.watchedBtn.isWatched { color: #4caf7d; border-color: #4caf7d; }
+.removeBtn { background: none; border: 1px solid var(--border); color: var(--muted); padding: 6px 10px; border-radius: 6px; cursor: pointer; }
+.removeBtn:hover { background: #e5383b; color: #fff; }
+.empty { text-align: center; padding: 6rem 2rem; max-width: 400px; margin: 0 auto; }
+.emptyIcon { font-size: 4rem; margin-bottom: 1rem; }
+.empty h2 { font-size: 1.4rem; margin-bottom: 0.5rem; }
+.empty p { color: var(--muted); margin-bottom: 1.5rem; }
+.exploreBtn { background: #e5383b; border: none; color: #fff; padding: 10px 28px; border-radius: 8px; font-size: 0.95rem; font-weight: 600; cursor: pointer; }
